@@ -1,7 +1,5 @@
 package Aula_1;
 
-import Aula1_Pack2.Produto;
-
 public class Executavel {
 	public static void main(String[] args) {
 		
