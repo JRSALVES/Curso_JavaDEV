@@ -1,5 +1,7 @@
 package Aula_1;
 
+import Aula2.Produto;
+
 public class Executavel {
 	public static void main(String[] args) {
 		
@@ -10,9 +12,21 @@ public class Executavel {
 		aluno1.setIdade(57);
 		
 		
-		System.out.println("\n Nome: " + aluno1.getNome());
-		System.out.println("\n Sobrenome: " + aluno1.getSobrenome());
-		System.out.println("\n Idade: " + aluno1.getIdade() + "anos");
+		System.out.println("Nome: " + aluno1.getNome());
+		System.out.println("Sobrenome: " + aluno1.getSobrenome());
+		System.out.println("Idade: " + aluno1.getIdade() + "anos");
+		
+		
+		Produto prod1 = new Produto();
+		
+		prod1.setDescricao("Mamão");
+		prod1.setQuantidade(10);
+		prod1.setValor(1.50);
+		
+		System.out.println("\nProduto: " + prod1.getDescricao());
+		System.out.println("Valor RS: " + prod1.getValor());
+		System.out.println("Qtde: " + prod1.getQuantidade());
+				
+		
 	}
-
 }
