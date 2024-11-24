@@ -1,4 +1,4 @@
-package Aula2;
+package Aula1_Pack2;
 
 public class Produto {
 	
